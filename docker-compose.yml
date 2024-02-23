@@ -3,6 +3,6 @@ services:
   php-apache:
     build:
       context: .
-      dockerfile: Dockerfile.txt
+      dockerfile: Dockerfile
     ports:
       - "8080:80"
